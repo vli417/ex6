@@ -19,27 +19,6 @@ export default function UserProfile({isLoggedIn, userInformation}){
     }, [isLoggedIn]);
 
 
-    //const [isLoggedIn, setIsLoggedIn] = useState(null);
-    //const [user, setUser] = useState(null);
-
-
-    /*useEffect(() => {
-        const app = initializeApp(firebaseConfig);
-        const auth = getAuth(app);
-        //Check if logged in
-        setIsLoggedIn(true)
-
-
-        //set user info if logged in
-
-        setUser({});
-    },[]);
-
-    //if user is not logged in, forward them to login page
-    if(!isLoggedIn) return null;
-
-    */
-
     return (
         
         <main> 
